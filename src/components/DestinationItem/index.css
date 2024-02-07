@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.destination-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 30vw;
+}
+
+.destination-image {
+  width: 100%;
+}
+.destination-name {
+  font-family: 'Open Sans';
+  font-size: 30px;
+  color: #0f172a;
+  font-weight: bold;
+}
+
+@media (width <=768px) {
+  .destination-container {
+    width: 80%;
+    align-items: center;
+  }
+  .destination-name {
+    font-size: 24px;
+  }
+}
